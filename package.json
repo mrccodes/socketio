@@ -1,0 +1,38 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "socket.io/react/node practice",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "socket.io": "^4.0.0",
+    "socket.io-client": "^4.0.0",
+    "utf-8-validate": "^5.0.4",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrccodes/socketio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrccodes/socketio/issues"
+  },
+  "homepage": "https://github.com/mrccodes/socketio#readme"
+}
